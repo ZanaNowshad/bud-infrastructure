@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Wallet files
+wallet_metadata/*.json
+wallets/
+
+# Logs
+logs/*.log
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Screenshots
+screenshots/
+
+# Data
+data/*.db
+data/*.sqlite
